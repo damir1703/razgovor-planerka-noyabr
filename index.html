@@ -1,0 +1,190 @@
+<!doctype html><html lang="uz"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex"><style>*,*::before,*::after{box-sizing:border-box}body{margin:0}</style>
+<title>Noyabr planyorka</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: bitta ustun, tepada xulosa, keyin raqamlar jadvali, oxirida harakatlar */
+:root{
+  --bg:#f5f7f6; --card:#ffffff; --fg:#17201c; --muted:#5d6a64; --line:#dde4e0;
+  --accent:#0f7a5a; --uz:#2f9e6e; --uz9:#d9a21b; --ru:#d0503c; --other:#8a9690;
+  --display:"Manrope",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111715; --card:#18201d; --fg:#e6ece9; --muted:#9aa8a1; --line:#2a3531;
+  --accent:#4cc79a; --uz:#3fb883; --uz9:#e6b43a; --ru:#ef6b57; --other:#7b8883; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111715; --card:#18201d; --fg:#e6ece9; --muted:#9aa8a1; --line:#2a3531;
+  --accent:#4cc79a; --uz:#3fb883; --uz9:#e6b43a; --ru:#ef6b57; --other:#7b8883; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--display);line-height:1.55;font-size:15px}
+.wrap{max-width:760px;margin:0 auto;padding-block:32px 56px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;flex-direction:column;gap:28px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:30px;line-height:1.15;margin:6px 0 0;font-weight:800;text-wrap:balance}
+h2{font-size:19px;margin:0 0 10px;font-weight:800;text-wrap:balance}
+p{margin:0 0 10px;max-width:65ch}
+.verdict{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;display:grid;gap:14px}
+.big{display:flex;flex-wrap:wrap;gap:18px}
+.big div{flex:1 1 140px;min-width:0}
+.big b{display:block;font-size:34px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1.1}
+.big span{font-size:13px;color:var(--muted)}
+.ru{color:var(--ru)} .uz9{color:var(--uz9)} .uz{color:var(--uz)}
+.bar{display:flex;height:14px;border-radius:7px;overflow:hidden;background:var(--line)}
+.bar i{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--muted)}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;background:var(--c)}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:14px}
+th,td{padding:9px 12px;text-align:right;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+th:first-child,td:first-child{text-align:left}
+th{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.03em}
+tr:last-child td{border-bottom:0}
+tr.hl td{background:color-mix(in srgb,var(--accent) 9%,transparent);font-weight:600}
+td .bar{height:8px;min-width:90px}
+.note{font-size:13px;color:var(--muted)}
+ol{margin:0;padding-left:20px;display:grid;gap:8px;max-width:65ch}
+code{font-family:var(--mono);font-size:13px}
+</style>
+
+<style>
+.lang{display:flex;gap:6px}
+.lang button{font:600 13px var(--display);padding:6px 12px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+body[data-l="uz"] [data-ru], body[data-l="ru"] [data-uz]{display:none}
+ul{margin:0;padding-left:20px;display:grid;gap:6px;max-width:65ch}
+</style>
+</head><body data-l="uz">
+<div class="wrap">
+<header>
+  <div class="lang"><button data-set="uz" aria-pressed="true">O'zbekcha</button><button data-set="ru" aria-pressed="false">Русский</button></div>
+  <div class="eyebrow" style="margin-top:14px">Razgovor.uz · 09.11.2026, 13:30</div>
+  <h1 data-uz>Noyabr, 1–9: asosiy raqamlar</h1><h1 data-ru>Ноябрь, 1–9: ключевые цифры</h1>
+</header>
+
+<section class="verdict">
+  <h2 data-uz>Xulosa</h2><h2 data-ru>Главное</h2>
+  <div class="big">
+    <div><b class="ru">−55%</b><span data-uz>tushum oktyabrning 1–9 kunlariga nisbatan</span><span data-ru>выручка к 1–9 октября</span></div>
+    <div><b class="ru">504</b><span data-uz>ishlanmagan lid («Yangi lid»)</span><span data-ru>необработанных лида («Yangi lid»)</span></div>
+    <div><b class="uz">$0.68</b><span data-uz>lid narxi — oktyabrdagidek</span><span data-ru>цена лида — как в октябре</span></div>
+  </div>
+  <p data-uz>Reklama yetarli, lidlar arzon. Sotuv ikki baravardan ko'proq tushdi: lidlar ishlanmay qolib ketyapti va ularning soni o'syapti.</p>
+  <p data-ru>Рекламы хватает, лиды дешёвые. Продажи упали больше чем вдвое: лиды копятся необработанными, и завал растёт.</p>
+</section>
+
+<section>
+  <h2 data-uz>Kurs reklamasi (naymsiz)</h2><h2 data-ru>Реклама курса (без найма)</h2>
+  <div class="tbl"><table>
+    <thead><tr><th></th><th data-uz>Oktyabr</th><th data-ru>Октябрь</th><th data-uz>Noyabr, 1–9</th><th data-ru>Ноябрь, 1–9</th></tr></thead>
+    <tbody>
+      <tr><td><span data-uz>Xarajat</span><span data-ru>Расход</span></td><td>$5 061</td><td>$1 148</td></tr>
+      <tr><td><span data-uz>Lidlar</span><span data-ru>Лиды</span></td><td>7 562</td><td>1 696</td></tr>
+      <tr class="hl"><td><span data-uz>Lid narxi</span><span data-ru>Цена лида</span></td><td>$0.67</td><td>$0.68</td></tr>
+    </tbody>
+  </table></div>
+  <ul data-uz style="margin-top:12px">
+    <li>Kunlik lidlar: 217, 187, 205, 133, 242, 269, 212, 144. Bugun 13:30 gacha — 87.</li>
+    <li>07.11 sotuv bo'limi so'rovi bilan oqim kuniga 150–200 ga tushirildi: qimmat guruhlar to'xtatildi, blogerlarda yosh 22+.</li>
+    <li>Lidlarning yarmi blogerlardan: zahod B — $0.44, ProjectName24 — $0.41.</li>
+    <li>Eng qimmat: forma 5 25–55 — $1.15, uzb broad — $0.80–1.19.</li>
+    <li><b>15% chegirma aksiyasi (10–16.11):</b> ikkala video moderatsiyadan o'tdi, bugun 10 lid, $0.61–0.94.</li>
+    <li><b>Onlayn formalar:</b> bloger formalarida 16% odam «offlayn kerak» deb javob berdi. Endi barcha bloger reklamalari «100% onlayn» yozuvi bilan.</li>
+  </ul>
+  <ul data-ru style="margin-top:12px">
+    <li>Лиды по дням: 217, 187, 205, 133, 242, 269, 212, 144. Сегодня до 13:30 — 87.</li>
+    <li>07.11 по просьбе продаж снизили поток до 150–200 в день: дорогие группы на паузе, у блогеров возраст 22+.</li>
+    <li>Половина лидов — блогеры: zahod B по $0.44, ProjectName24 по $0.41.</li>
+    <li>Самые дорогие: forma 5 25–55 — $1.15, uzb broad — $0.80–1.19.</li>
+    <li><b>Акция 15% (10–16.11):</b> оба ролика прошли модерацию, сегодня 10 лидов по $0.61–0.94.</li>
+    <li><b>Онлайн-формы:</b> в формах блогеров 16% ответили «нужен офлайн». Теперь все объявления блогеров с пометкой «100% onlayn».</li>
+  </ul>
+</section>
+
+<section>
+  <h2 data-uz>Sotuvlar (Bitrix)</h2><h2 data-ru>Продажи (Bitrix)</h2>
+  <div class="tbl"><table>
+    <thead><tr><th></th><th data-uz>Oktyabr, 1–9</th><th data-ru>Октябрь, 1–9</th><th data-uz>Noyabr, 1–9</th><th data-ru>Ноябрь, 1–9</th></tr></thead>
+    <tbody>
+      <tr><td><span data-uz>To'lovlar</span><span data-ru>Оплаты</span></td><td>49</td><td class="ru">25 (−49%)</td></tr>
+      <tr class="hl"><td><span data-uz>Tushum</span><span data-ru>Выручка</span></td><td>133.2 mln</td><td class="ru">60.3 mln (−55%)</td></tr>
+      <tr><td><span data-uz>1 to'lovga reklama xarajati</span><span data-ru>Расход рекламы на 1 оплату</span></td><td>~$28*</td><td>~$46</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note" data-uz>* butun oktyabr bo'yicha. Oktyabr jami: 180 to'lov, 484.8 mln so'm.</p>
+  <p class="note" data-ru>* за весь октябрь. Октябрь целиком: 180 оплат, 484.8 млн сум.</p>
+  <ul data-uz>
+    <li>Kunlik to'lovlar: 2, 2, 2, 6, 2, 5, 4, 2.</li>
+    <li><b>Noyabr prognozi hozirgi tempda:</b> ~85–90 to'lov, ~210 mln so'm (aksiyasiz).</li>
+    <li>18 menejerdan 10 tasi sotgan. Eng yaxshisi (ID 445): 6 to'lov, 13.6 mln.</li>
+    <li>25 to'lovdan 22 tasi targetdan.</li>
+  </ul>
+  <ul data-ru>
+    <li>Оплаты по дням: 2, 2, 2, 6, 2, 5, 4, 2.</li>
+    <li><b>Прогноз на ноябрь при текущем темпе:</b> ~85–90 оплат, ~210 млн сум (без акции).</li>
+    <li>Продают 10 менеджеров из 18. Лучший (ID 445): 6 оплат, 13.6 млн.</li>
+    <li>22 из 25 оплат — из таргета.</li>
+  </ul>
+</section>
+
+<section>
+  <h2 data-uz>Pul qayerda yo'qolyapti</h2><h2 data-ru>Где теряются деньги</h2>
+  <div class="tbl"><table>
+    <thead><tr><th data-uz>Bosqich</th><th data-ru>Стадия</th><th data-uz>Lidlar</th><th data-ru>Лиды</th></tr></thead>
+    <tbody>
+      <tr class="hl"><td>Yangi lid <span class="note" data-uz>(hech kim tegmagan, 20.10 dan)</span><span class="note" data-ru>(никто не трогал, с 20.10)</span></td><td class="ru">504</td></tr>
+      <tr><td>Limitni ko'rib beradigan kanban</td><td>430</td></tr>
+      <tr><td>Qayta Abrabotka <span class="note" data-uz>(noyabr lidlari)</span><span class="note" data-ru>(лиды ноября)</span></td><td>549</td></tr>
+    </tbody>
+  </table></div>
+  <ul data-uz style="margin-top:12px">
+    <li>05.11 da ishlanmagan lidlar 381 ta edi. Oqim kamaytirildi, lekin to'siq baribir o'syapti.</li>
+    <li>Birinchi soatda qo'ng'iroq qilingan lid kechagi liddan <b>3 baravar</b> yaxshi sotuvga aylanadi.</li>
+    <li>Uzum limit tekshiruvi 07.11 da tuzatildi: oldin 1–2 soat kutardi, endi bir necha soniya.</li>
+  </ul>
+  <ul data-ru style="margin-top:12px">
+    <li>05.11 необработанных было 381. Поток снизили, а завал всё равно растёт.</li>
+    <li>Лид, которому позвонили в первый час, конвертируется <b>втрое</b> лучше вчерашнего.</li>
+    <li>Проверку лимита в Uzum починили 07.11: раньше висела 1–2 часа, теперь секунды.</li>
+  </ul>
+</section>
+
+<section>
+  <h2 data-uz>Sotuv menejeri naymi</h2><h2 data-ru>Найм менеджеров по продажам</h2>
+  <p data-uz>Bitrixdagi anketalar kunlar bo'yicha: 12, 12, 11, 10, 11, 13, <b class="ru">5, 2, 1</b>.</p>
+  <p data-ru>Анкеты в Bitrix по дням: 12, 12, 11, 10, 11, 13, <b class="ru">5, 2, 1</b>.</p>
+  <ul data-uz>
+    <li><b>Sabab:</b> auditoriya tugadi — Chilonzor 7 km, 18–25 yosh. Ko'rsatuvlar kuniga 25 000 dan 7 000 ga tushdi.</li>
+    <li><b>Qaror:</b> hudud Chilonzor va qo'shni tumanlargacha (15 km), yosh 18–28 gacha kengaytiriladi. Maqsad — kuniga 30+ anketa.</li>
+  </ul>
+  <ul data-ru>
+    <li><b>Причина:</b> аудитория выгорела — Чиланзар 7 км, 18–25 лет. Показы упали с 25 000 до 7 000 в день.</li>
+    <li><b>Решение:</b> расширяем до Чиланзара и соседних районов (15 км), возраст 18–28. Цель — 30+ анкет в день.</li>
+  </ul>
+</section>
+
+<section>
+  <h2 data-uz>Planyorka uchun qarorlar</h2><h2 data-ru>Решения для планёрки</h2>
+  <ol data-uz>
+    <li>Aksiya boshlanishidan oldin (10.11) 504 ta ishlanmagan lidni menejerlarga taqsimlab, qo'ng'iroq qilish.</li>
+    <li>Qoida: yangi lidga 1 soat ichida qo'ng'iroq.</li>
+    <li>«Limit» kanbanidagi 430 lid: chet el raqamlilardan o'zbek raqamini so'rash.</li>
+    <li>15% aksiya shartlarini (10–16.11, 111 o'rin) barcha menejerlar bir xil aytishi.</li>
+  </ol>
+  <ol data-ru>
+    <li>До старта акции (10.11) раздать 504 необработанных лида менеджерам и обзвонить.</li>
+    <li>Правило: звонок новому лиду в течение часа.</li>
+    <li>430 лидов в канбане «Limit»: у клиентов с иностранными номерами спросить узбекский.</li>
+    <li>Условия акции 15% (10–16.11, 111 мест) все менеджеры называют одинаково.</li>
+  </ol>
+</section>
+</div>
+<script>
+document.querySelectorAll('.lang button').forEach(b=>b.onclick=()=>{
+  document.body.dataset.l=b.dataset.set; document.documentElement.lang=b.dataset.set;
+  document.querySelectorAll('.lang button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  try{localStorage.setItem('l',b.dataset.set)}catch(e){}
+});
+try{const l=localStorage.getItem('l'); if(l) document.querySelector(`.lang button[data-set="${l}"]`)?.click()}catch(e){}
+</script>
+</body></html>
